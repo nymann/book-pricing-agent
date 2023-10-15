@@ -23,7 +23,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: |book-pricing-agent
+          images: book-pricing-agent
           tags: |
             type=ref,event=branch
             type=ref,event=pr
